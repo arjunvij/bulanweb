@@ -207,6 +207,6 @@ footer{
     display: block;
     margin: auto auto;
     width: 100%;
-    filter: grayscale();
+/*     filter: grayscale(); */
   }
 }

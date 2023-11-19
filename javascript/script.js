@@ -1,0 +1,1 @@
+document.write("This is the Java script code ")

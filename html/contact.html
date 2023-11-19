@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="../css/contact_usStyle.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <h2 class = "logo"><a href ="../home.html">BULAN</a></h2>
+        <h3 class = "byMannatVij">by Mannat Vij</h3>
+      </nav>
+    </div> 
+    <div class="container">
+      <!-- <span class="big-circle"></span> -->
+      <!-- <img src="Contactimg/shape.png" class="square" alt="" /> -->
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            At Bulan we love both prêt and couture.<br>
+            If you whish to contact us for any queries feel free to reach out.
+            We shall respond as early as possible.
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="../media/icons/contact_icons/location.png" class="icon" alt="" />
+              <p>Chandigarh, India</p>
+            </div>
+            <div class="information">
+              <img src="../media/icons/contact_icons/email.png" class="icon" alt="" />
+              <p>bulan.bymannatvij@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="../media/icons/contact_icons/phone.png" class="icon" alt="" />
+              <p>+91 7696468524</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <!-- <span class="circle one"></span>
+          <span class="circle two"></span> -->
+
+          <form action="../php/dbConnection.php" method = "post" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Name</label>
+              <span>Name</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="phone" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="../javascript/contactUs.js"></script>
+  </body>
+</html>

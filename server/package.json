@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.21.0",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "name": "bulanweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

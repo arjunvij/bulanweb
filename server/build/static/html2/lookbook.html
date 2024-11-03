@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="../css/lookbook.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <h2 class = "logo"><a href ="../home.html">BULAN</a></h2>
+        <h3 class = "byMannatVij">by Mannat Vij</h3>
+      </nav>
+    </div> 
+    <div id = "articleContainer" class="articleContainer">
+      <div class="article" >
+        <div class = "article1">
+          <div class="slideshow-container">
+            <div class="articleImageWindow">
+                <img class = "suitImage" src = "../media/photos/bulanTestImage.JPG">
+            </div>
+            <div class="articleImageWindow">
+              <img class = "suitImage" src = "../media/photos/bulanTestImage2.JPG">
+            </div>
+            <div class="articleImageWindow">
+              <img class = "suitImage" src = "../media/photos/bulanTestImage3.JPG">
+            </div>
+            <a class="prev" onclick="plusSlides(-1,'article1')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1,'article1')">&#10095;</a>
+          </div>
+
+        
+
+          <div class=" contact-form">
+            <br>
+            <p class="suitName">SuiteName1</p>
+            
+            <p class="suitDesc">
+              At Bulan we love both prêt and couture.<br>
+              If you whish to contact us for any queries feel free to reach out.
+              We shall respond as early as possible.
+            </p>
+            
+            <form action="../html2/contact.html#message=SuiteName1" method="get">
+            <div class = "Enquire">
+              <input type="submit" value="Enquire Now" class="btn" />
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../javascript/lookbook.js"></script>
+  </body>
+</html>
